@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'django.contrib.admin',
+    #'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -60,9 +60,9 @@ WSGI_APPLICATION = 'effidavit.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'effidavit',
-        'USER': 'bkanuka',
-        'PASSWORD': 'lookout',
+        'NAME': 'django',
+        'USER': 'django',
+        'PASSWORD': 'vL8nOWTOeB',
         'HOST': 'localhost',
         'PORT': '5432',
     }
@@ -85,8 +85,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
+STATIC_URL = '/assets/'
 #STATICFILES_DIRS = (
 #        os.path.join(PROJECT_PATH, 'static'),
 #        )
