@@ -94,6 +94,6 @@ STATIC_URL = '/assets/'
 # os.path.join(BASE_DIR, ...)
 #MEDIA_ROOT = os.path.join(PROJECT_PATH, 'media/')
 
-#TEMPLATE_DIRS = (
-#        os.path.join(PROJECT_PATH, 'templates/'),
-#        )
+TEMPLATE_DIRS = (
+        os.path.join(BASE_DIR, 'templates'),
+        )
